@@ -1,0 +1,44 @@
+{
+    "outbounds": [
+        {
+            "_QV2RAY_USE_GLOBAL_FORWARD_PROXY_": false,
+            "mux": {
+                "concurrency": 1,
+                "enabled": null
+            },
+            "protocol": "vless",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "172.64.197.13",
+                        "port": 443,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "id": "06bcc7c9-5840-4cd5-a052-3357a3524269"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                    "serverName": "soubbe14.bvfvfe.gq"
+                },
+                "wsSettings": {
+                    "headers": {
+                        "Host": "soubbe14.bvfvfe.gq"
+                    },
+                    "path": "/06bcc7c9-5840-4cd5-a052-3357a3524269-vless"
+                },
+                "xtlsSettings": {
+                    "serverName": "soubbe14.bvfvfe.gq"
+                }
+            },
+            "tag": "doc X1"
+        }
+    ]
+}
